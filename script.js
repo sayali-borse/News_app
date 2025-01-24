@@ -1,4 +1,6 @@
-const apiKey = "2b3a77bbf9434928b010649ff991ddbe";
+//const apiKey = "https://newsapi.org/v2/top-headlines?country=us&apiKey=2b3a77bbf9434928b010649ff991ddbe";
+const url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?country=us&apiKey=2b3a77bbf9434928b010649ff991ddbe`;
+
 const newsContainer = document.getElementById("news-container");
 const searchInput = document.getElementById("search");
 
